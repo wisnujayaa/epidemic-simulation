@@ -30,6 +30,10 @@ the peak so far, and an estimate of R.
 *Each curve is one run: number of infected people (vertical, 2 px per person) over simulation cycles
 (horizontal, 1 px per cycle), out of 301 people.*
 
+*This screenshot was taken before a fix to the waning-immunity rate (it ran at 0.3% per cycle instead of the
+intended 0.1%). That rule only starts at cycle 800, so the peaks below are unaffected; only the last part of
+each curve would look slightly different now.*
+
 Peaks read off this screenshot (approximate, ±5 people):
 
 | Willing to isolate | Peak infected | Share of population |

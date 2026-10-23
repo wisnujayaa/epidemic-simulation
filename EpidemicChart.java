@@ -291,7 +291,7 @@ public class EpidemicChart extends Actor {
         List<Person> people = getWorld().getObjects(Person.class);
 
         for (Person person : people) {
-            if (person.getStatus() == InfectionStatus.IMMUNE && Greenfoot.getRandomNumber(1000) < 3) {
+            if (person.getStatus() == InfectionStatus.IMMUNE && Greenfoot.getRandomNumber(1000) < 1) {
                 person.setStatus(InfectionStatus.SUSCEPTIBLE);
             }
         }
