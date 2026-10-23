@@ -1,0 +1,5 @@
+# Greenfoot / BlueJ generated files
+*.class
+*.ctxt
+# macOS
+.DS_Store
